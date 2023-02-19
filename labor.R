@@ -10,7 +10,7 @@ library(fpp2)
 library(dplyr)
 
 ### Set Key
-fredr_set_key("8454091b420f6979c70e84de8e611118")
+fredr_set_key("")
 
 ### OFFICIAL Unemployment Rate ###
 fed <- fredr(series_id = "FEDFUNDS") ###1954
